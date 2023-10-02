@@ -1,0 +1,21 @@
+@use 'variables'
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    list-style: none
+    text-decoration: none
+    border: none
+    font-family: variables.$font-stack
+
+body 
+    background-color: #efefef
+    color: variables.$text-color
+    position: relative
+
+    @media screen and (max-width: 966px)
+        padding: 0 15px
+
+a,svg
+    transition: .4s

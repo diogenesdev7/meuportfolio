@@ -1,0 +1,114 @@
+@use '../variables'
+@use '../mixins'
+
+#main-content 
+    background-color: variables.$bg-color
+    flex: 2 1 0
+    border-radius: variables.$container-border-radius
+    padding: 3rem
+    box-shadow: 0 0 10px rgba(0,0,0,.5)
+
+    section
+        display: flex
+        flex-direction: column
+        margin: 50px 0
+
+    h2
+        color: variables.$text-color
+        font-size: 2rem
+        margin-bottom: 1.5rem
+        @include mixins.center
+        justify-content: start
+        gap: 1rem
+
+        &::after
+            @include mixins.gradient-border
+
+    p
+        color: color-mix(in srgb, variables.$text-color-secondary, white 70%)
+        margin-bottom: 1rem
+        line-height: 1.4rem
+
+    .btn
+        @include mixins.btn
+        align-self: start
+
+
+    .tecnologias
+        display: flex
+        flex-wrap: wrap
+
+        h3
+            width: 100%
+            font-weight: 500
+            color: #888
+            margin: 25px 0
+
+        .tecnologia
+            width: 25%
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            gap: 10px
+            position: relative
+
+            p
+                font-size: 1.3rem
+
+            svg 
+                font-size: 2.5rem
+
+            @media screen and (max-width: 768px)
+                width: 100%
+
+                svg
+                    font-size: 3.7rem
+
+                p
+                    margin-bottom: 25px
+
+
+        #Html
+            svg
+                color: #ff6347
+
+        #Css
+            svg
+                color: #4870e9
+
+        #JavaScript
+            svg
+                color: yellow
+
+        #React
+            svg
+                color: skyblue
+
+        #Sass
+            svg
+                color: #ab0992
+
+        #Bootstrap
+            svg
+                color: purple
+
+        #Python
+            svg
+                color: gold
+
+        #Vue
+            svg
+                color: darkcyan
+
+
+.footer
+    background-color: variables.$bg-color
+    position: absolute
+    bottom: -60px
+    left: 0
+    width: 100%
+    text-align: center
+    padding: 25px
+    box-shadow: 0 0 10px rgba(0,0,0,.5)
+    color: #aaa
