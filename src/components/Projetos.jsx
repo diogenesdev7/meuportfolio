@@ -24,10 +24,10 @@ const Projetos = () => {
           </div>
           <div className="projetos-card">
             <div className="projetos-card-image">
-            <a href="https://cinedatabasepage.vercel.app/" target='_blank'><img src={cinedatabase} alt="cinedatabase" /></a>
+            <a href="https://cinedatabase.vercel.app/" target='_blank'><img src={cinedatabase} alt="cinedatabase" /></a>
             </div>
             <div className="projetos-info-card">
-            <a href="https://cinedatabasepage.vercel.app/" target='_blank'><h4>Site de Base de dados de filmes</h4></a>
+            <a href="https://cinedatabase.vercel.app/" target='_blank'><h4>Site de Base de dados de filmes</h4></a>
               <p>Desenvolvido com React.js, Sass e Api</p>
             </div>
           </div>
