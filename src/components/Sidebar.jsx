@@ -12,7 +12,7 @@ export default function Sidebar() {
             <p className='title'>Desenvolvedor Front-End</p>
             <SocialNetworks />
             <Information />
-            <a href={curriculo} download="curriculo.pdf" className='btn'>Download currículo</a>
+            <a href={curriculo} download="curriculo.docx" className='btn'>Download currículo</a>
         </aside>
     )
 }
