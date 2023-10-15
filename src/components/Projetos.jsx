@@ -7,6 +7,7 @@ import todolist from '../img/todolist1.jpg'
 import casas from '../img/casasedit.jpg'
 import previsaoTempo from '../img/previsaodotempo1.jpg'
 import calculadoraIMC from '../img/calculadoraIMC1.jpg'
+import { FiExternalLink } from 'react-icons/fi'
 
 const Projetos = () => {
   return (
@@ -21,6 +22,9 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/html-css/guitar%20classes/" target='_blank'><h4>Landing Page de Aulas de Música</h4></a>
               <p>Desenvolvido com Html e Sass</p>
             </div>
+              <a className='git-link' href="https://github.com/diogenesdev7/html-css/tree/main/guitar%20classes">
+                <FiExternalLink />
+              </a>
           </div>
           <div className="projetos-card">
             <div className="projetos-card-image">
@@ -30,6 +34,9 @@ const Projetos = () => {
             <a href="https://cinedatabase.vercel.app/" target='_blank'><h4>Site de Base de dados de filmes</h4></a>
               <p>Desenvolvido com React.js, Sass e Api</p>
             </div>
+              <a className='git-link' href="https://github.com/diogenesdev7/cinedatabase">
+                <FiExternalLink />
+              </a>
           </div>
           <div className="projetos-card">
             <div className="projetos-card-image">
@@ -39,6 +46,9 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/todolist_react/" target='_blank'><h4>ToDo list</h4></a>
               <p>Desenvolvido com React.js</p>
             </div>
+              <a className='git-link' href="https://github.com/diogenesdev7/todolist_react">
+                <FiExternalLink />
+              </a>
           </div>
           <div className="projetos-card">
             <div className="projetos-card-image">
@@ -48,6 +58,9 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/html-css/casas_planejadas/" target='_blank'><h4>Site de planejamento de casas</h4></a>
               <p>Desenvolvido com Bootstrap</p>
             </div>
+              <a className='git-link' href="https://github.com/diogenesdev7/html-css/tree/main/casas_planejadas">
+                <FiExternalLink />
+              </a>
           </div>
           <div className="projetos-card">
             <div className="projetos-card-image">
@@ -57,6 +70,9 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/previsao-do-tempo/" target='_blank'><h4>Sistema de previsão do tempo </h4></a>
               <p>Desenvolvido com Vue.js</p>
             </div>
+              <a className='git-link' href="https://github.com/diogenesdev7/previsao-do-tempo">
+                <FiExternalLink />
+              </a>
           </div>
           <div className="projetos-card">
             <div className="projetos-card-image">
@@ -66,6 +82,9 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/calculadoraIMC/" target='_blank'><h4>Calculadora IMC </h4></a>
               <p>Desenvolvido com Vue.js</p>
             </div>
+              <a className='git-link' href="https://github.com/diogenesdev7/calculadoraIMC">
+                <FiExternalLink />
+              </a>
           </div>
         </div>
     </section>
