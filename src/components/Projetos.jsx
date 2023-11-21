@@ -21,7 +21,7 @@ const Projetos = () => {
             </div>
             <div className="projetos-info-card">
             <a href="https://queststore-wheat.vercel.app" target='_blank'><h4>Loja virtual de games</h4></a>
-              <p>Desenvolvido com React e Sass</p>
+              <p>Desenvolvido com React e Sass.</p>
             </div>
               <a className='git-link' href="https://github.com/diogenesdev7/queststore">
                 <FiExternalLink />
