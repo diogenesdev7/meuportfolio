@@ -7,7 +7,7 @@ import todolist from '../img/todolist1.jpg'
 import casas from '../img/casasedit.jpg'
 import previsaoTempo from '../img/previsaodotempo1.jpg'
 import calculadoraIMC from '../img/calculadoraIMC1.jpg'
-import quest from '../img/questore1.jpg'
+import quest from '../img/queststore1.jpg'
 import { FiExternalLink } from 'react-icons/fi'
 
 const Projetos = () => {
@@ -17,10 +17,10 @@ const Projetos = () => {
         <div className="projetos-cards">
         <div className="projetos-card">
             <div className="projetos-card-image">
-              <a href="https://queststore-wheat.vercel.app/loja" target='_blank'><img src={quest} alt="quest store" /></a>
+              <a href="https://queststore-wheat.vercel.app" target='_blank'><img src={quest} alt="quest store" /></a>
             </div>
             <div className="projetos-info-card">
-            <a href="https://queststore-wheat.vercel.app/loja" target='_blank'><h4>Loja virtual de games</h4></a>
+            <a href="https://queststore-wheat.vercel.app" target='_blank'><h4>Loja virtual de games</h4></a>
               <p>Desenvolvido com React e Sass</p>
             </div>
               <a className='git-link' href="https://github.com/diogenesdev7/queststore">
