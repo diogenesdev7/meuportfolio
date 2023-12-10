@@ -36,7 +36,7 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/html-css/guitar%20classes/" target='_blank'><h4>Landing Page de Aulas de Música</h4></a>
               <p>Desenvolvido com Html e Sass</p>
             </div>
-              <a className='git-link' href="https://github.com/diogenesdev7/html-css/tree/main/guitar%20classes">
+              <a className='git-link' href="https://github.com/diogenesdev7/html-css/tree/main/guitar%20classes" target="_blank">
                 <FiExternalLink />
               </a>
           </div>
@@ -48,7 +48,7 @@ const Projetos = () => {
             <a href="https://cinedatabase.vercel.app/" target='_blank'><h4>Site de Base de dados de filmes</h4></a>
               <p>Desenvolvido com React.js, Sass e Api</p>
             </div>
-              <a className='git-link' href="https://github.com/diogenesdev7/cinedatabase">
+              <a className='git-link' href="https://github.com/diogenesdev7/cinedatabase" target="_blank">
                 <FiExternalLink />
               </a>
           </div>
@@ -60,7 +60,7 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/todolist_react/" target='_blank'><h4>ToDo list</h4></a>
               <p>Desenvolvido com React.js</p>
             </div>
-              <a className='git-link' href="https://github.com/diogenesdev7/todolist_react">
+              <a className='git-link' href="https://github.com/diogenesdev7/todolist_react" target="_blank">
                 <FiExternalLink />
               </a>
           </div>
@@ -72,7 +72,7 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/html-css/casas_planejadas/" target='_blank'><h4>Site de planejamento de casas</h4></a>
               <p>Desenvolvido com Bootstrap</p>
             </div>
-              <a className='git-link' href="https://github.com/diogenesdev7/html-css/tree/main/casas_planejadas">
+              <a className='git-link' href="https://github.com/diogenesdev7/html-css/tree/main/casas_planejadas" target="_blank">
                 <FiExternalLink />
               </a>
           </div>
@@ -84,7 +84,7 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/previsao-do-tempo/" target='_blank'><h4>Sistema de previsão do tempo </h4></a>
               <p>Desenvolvido com Vue.js</p>
             </div>
-              <a className='git-link' href="https://github.com/diogenesdev7/previsao-do-tempo">
+              <a className='git-link' href="https://github.com/diogenesdev7/previsao-do-tempo" target="_blank">
                 <FiExternalLink />
               </a>
           </div>
@@ -96,7 +96,7 @@ const Projetos = () => {
             <a href="https://diogenesdev7.github.io/calculadoraIMC/" target='_blank'><h4>Calculadora IMC </h4></a>
               <p>Desenvolvido com Vue.js</p>
             </div>
-              <a className='git-link' href="https://github.com/diogenesdev7/calculadoraIMC">
+              <a className='git-link' href="https://github.com/diogenesdev7/calculadoraIMC" target="_blank">
                 <FiExternalLink />
               </a>
           </div>

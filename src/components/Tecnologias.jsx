@@ -1,5 +1,6 @@
 import React from 'react'
 import { DiBootstrap, DiGithub, DiCss3, DiHtml5, DiJavascript, DiPython, DiReact, DiSass } from 'react-icons/di'
+import { SiTailwindcss, SiTypescript  } from 'react-icons/si'
 import { BiLogoVuejs } from 'react-icons/bi'
 
 const Tecnologias = () => {
@@ -7,8 +8,10 @@ const Tecnologias = () => {
         {name: 'Html', icon: <DiHtml5 />,},
         {name: 'Css', icon: <DiCss3 />},
         {name: 'JavaScript', icon: <DiJavascript />},
+        {name: 'TypeScript', icon: <SiTypescript />},
         {name: 'React', icon: <DiReact />},
         {name: 'Sass', icon: <DiSass />},
+        {name: 'Tailwind', icon: <SiTailwindcss />},
     ]
 
     const tecBasico = [
