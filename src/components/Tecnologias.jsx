@@ -2,6 +2,7 @@ import React from 'react'
 import { DiBootstrap, DiGithub, DiCss3, DiHtml5, DiJavascript, DiPython, DiReact, DiSass } from 'react-icons/di'
 import { SiTailwindcss, SiTypescript  } from 'react-icons/si'
 import { BiLogoVuejs } from 'react-icons/bi'
+import { FaWordpress  } from 'react-icons/fa'
 
 const Tecnologias = () => {
     const tecInter = [
@@ -18,12 +19,13 @@ const Tecnologias = () => {
         {name: 'Vue', icon: <BiLogoVuejs />},
         {name: 'Bootstrap', icon: <DiBootstrap />},
         {name: 'Python', icon: <DiPython />},
+        {name: 'Wordpress', icon: <FaWordpress />},
         {name: 'Github', icon: <DiGithub />}
     ]
 
     return (
     <section className="tecnologias-container">
-        <h2>Tecnologias</h2>
+        <h2>Habilidades técnicas</h2>
 
         <div className="tecnologias">
             <h3>Nível intermediário</h3> <br></br>

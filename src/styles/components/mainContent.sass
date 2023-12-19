@@ -20,14 +20,18 @@
         @include mixins.center
         justify-content: start
         gap: 1rem
+        white-space: nowrap
+
+        @media screen and (max-width: 720px)
+            font-size: 1.5rem
 
         &::after
             @include mixins.gradient-border
+            width: 100%
 
     p
         color: color-mix(in srgb, variables.$text-color-secondary, white 70%)
         margin-bottom: 1rem
-        line-height: 1.4rem
 
     .btn
         @include mixins.btn
@@ -42,7 +46,7 @@
             width: 100%
             font-weight: 500
             color: #888
-            margin: 25px 0 30px 0
+            margin: 15px 0 30px 0
 
         .tecnologia
             width: 25%
@@ -110,6 +114,10 @@
             svg
                 color: #1bb7ff
 
+        #Wordpress
+            svg
+                color: #499cc2
+
 
 .footer
     background-color: variables.$bg-color
@@ -121,3 +129,6 @@
     padding: 25px
     box-shadow: 0 0 10px rgba(0,0,0,.5)
     color: #aaa
+
+    a
+        color: #ddd
