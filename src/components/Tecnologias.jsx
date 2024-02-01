@@ -1,8 +1,10 @@
 import React from 'react'
-import { DiBootstrap, DiGithub, DiCss3, DiHtml5, DiJavascript, DiPython, DiReact, DiSass } from 'react-icons/di'
+import { DiBootstrap, DiMysql,  DiGithub, DiCss3, DiHtml5, DiJavascript, DiPython, DiReact, DiSass } from 'react-icons/di'
 import { SiTailwindcss, SiTypescript  } from 'react-icons/si'
 import { BiLogoVuejs } from 'react-icons/bi'
 import { FaWordpress  } from 'react-icons/fa'
+import { TbBrandMysql } from "react-icons/tb";
+
 
 const Tecnologias = () => {
     const tecInter = [
@@ -20,7 +22,8 @@ const Tecnologias = () => {
         {name: 'Bootstrap', icon: <DiBootstrap />},
         {name: 'Python', icon: <DiPython />},
         {name: 'Wordpress', icon: <FaWordpress />},
-        {name: 'Github', icon: <DiGithub />}
+        {name: 'Github', icon: <DiGithub />},
+        {name: 'MySQL', icon: <TbBrandMysql />}
     ]
 
     return (
