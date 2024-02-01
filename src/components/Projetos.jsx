@@ -26,7 +26,7 @@ const Projetos = () => {
                   Nextjs, Typescript e Tailwind
                 </div>
               </div>
-                <a className='git-link' href="https://github.com/diogenesdev7/queststoremnext">
+                <a className='git-link' target='_blank' href="https://github.com/diogenesdev7/queststoremnext">
                   <FiExternalLink />
                 </a>
           </div>
